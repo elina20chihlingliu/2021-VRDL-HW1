@@ -71,7 +71,7 @@ The following is what models directory looks like:\
     
 ## ResNet152V2 and Xception models weight download links
 
->📋  Here are the weight download links of ResNet152V2 and Xception models. It will be downloaded automatically, when running 310706002_main.py or 310706002_eval_loadmodels.py, 
+>📋  Here are the weight download links of ResNet152V2 and Xception models. They will be downloaded automatically when running 310706002_main.py or 310706002_eval_loadmodels.py, 
 
 ```pretrained_models
 Downloading data from https://storage.googleapis.com/tensorflow/keras-applications/resnet/resnet152v2_weights_tf_dim_ordering_tf_kernels_notop.h5
