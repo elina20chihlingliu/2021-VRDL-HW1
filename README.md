@@ -95,6 +95,6 @@ If you wanna know more about the code, you can check code_explanation file.
 Our model achieves the following performance on CodaLab:
 | Model name         | Top 1 Accuracy  |
 | ------------------ |---------------- |
-| Model              |     67.524%     |
+| Model              |       67.524%   |
 
 
