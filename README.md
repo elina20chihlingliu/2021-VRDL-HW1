@@ -14,7 +14,13 @@ The ML Code Completeness Checklist consists of five items:
 
 #### 1. Requirements
 
-'requirements.txt` contains all python 
+'requirements.txt' contains all python packages we need in the project.
+
+To install requirements:
+
+```setup
+pip install -r requirements.txt
+```
 
 #### 2. Files 
 
@@ -35,6 +41,10 @@ Please put the following files in the same directory.
 If you want to retrain models, just run 310706002_main.py (ex: python 310706002_main.py) and you can get answer.txt.\
 It may take 1.5~2.5 hours to run 310706002_main.py.
     
+```train
+python 310706002_main.py
+```
+
 #### 4. Evaluation code + Load the models 
 
 **310706002_eval_loadmodels.py** only has testing phase to produce answer.txt. It has to load pretrained models in models file.\
@@ -48,6 +58,10 @@ The following is what models file looks like:\
 ---[my_model2]\
 ---[my_model3]\
 ---[my_model4]
+    
+```eval
+python eval.py --model-file mymodel.pth --benchmark imagenet
+```
     
 #### 5. ResNet152V2 and Xception models load links
 
