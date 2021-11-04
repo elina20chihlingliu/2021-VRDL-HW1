@@ -14,7 +14,7 @@ The ML Code Completeness Checklist consists of five items:
 
 ## Requirements
 
-'requirements.txt' contains all python packages we need in the project.
+>📋  'requirements.txt' contains all python packages we need in the project.
 
 To install requirements:
 
