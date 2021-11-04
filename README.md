@@ -60,7 +60,7 @@ In the models file, there are five models parameters that I pretrained and saved
 If you want to evaluate test data without training model again, run 310706002_eval_loadmodels.py and you can get answer.txt.\
 It may take 1~2 hours to run 310706002_eval_loadmodels.py.
 
-The following is what models file looks like:\
+The following is what models directory looks like:\
 \[models]\
 ---[my_model0]\
 ---[my_model1]\
@@ -85,7 +85,7 @@ Downloading data from https://storage.googleapis.com/tensorflow/keras-applicatio
 ---read_image.py\
 ---training_phase.py
 
->📋  code_explanation file includes each segments of the code in 310706002_main.py. 
+>📋  code_explanation directory includes each segments of the code in 310706002_main.py. 
 In order to explain the code more detail, I separated the code into four segments and each of them were saved as python file.
 Those python files cannot be executed, because they are only for reading the code in detail including some programming notes.
 If you wanna know more about the code, you can check code_explanation file.
