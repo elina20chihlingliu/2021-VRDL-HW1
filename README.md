@@ -57,8 +57,9 @@ The following is what models file looks like:\
 ---feature_extraction_used_pretained_models.py\
 ---predict.py\
 ---read_image.py\
+---training_phase.py\
 
 code_explanation file includes each segments of the code in 310706002_main.py. 
-In order to explain the code more detail, I separated the code into three segments and each of them were saved as python file.
+In order to explain the code more detail, I separated the code into four segments and each of them were saved as python file.
 Those python files cannot be executed, because they are only for reading the code in detail including some programming notes.
-If you know more about the code, you can check code_explanation file.
+If you wanna know more about the code, you can check code_explanation file.
