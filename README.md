@@ -55,9 +55,7 @@ To evaluate and produce answer.txt without training model again, run this comman
 python 310706002_eval_loadmodels.py
 ```
 
->📋  **310706002_eval_loadmodels.py** only has testing phase to produce answer.txt. It has to load pretrained models in models file.\
-In the models file, there are five models parameters that I pretrained and saved which I used to achieve the baseline.\
-If you want to evaluate test data without training model again, run 310706002_eval_loadmodels.py and you can get answer.txt.\
+>📋  **310706002_eval_loadmodels.py** only has testing phase to produce answer.txt. It has to load pretrained models in models file. In the models file, there are five models parameters that I pretrained and saved which I used to achieve the baseline. If you want to evaluate test data without training model again, run 310706002_eval_loadmodels.py and you can get answer.txt.\
 It may take 1~2 hours to run 310706002_eval_loadmodels.py.\
 **If the models failed to load, please check keras version==2.6.0.**\
 The following is what models directory looks like:\
