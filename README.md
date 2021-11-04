@@ -25,15 +25,16 @@ pip install -r requirements.txt
 ## Files 
 
 >📋  Please put the following files in the same directory.
+>    **These are my files, please download them from Github.**
 1. [training_images]
 2. [testing_images]
-3. [models]
-4. [code_explanation]
+3. **[models]**
+4. **[code_explanation]**
 5. classes.txt
 6. testing_img_order.txt
 7. training_labels.txt
-8. 310706002_main.py
-9. 310706002_eval_loadmodels.py
+8. **310706002_main.py**
+9. **310706002_eval_loadmodels.py**
 
 ## Training code + Evaluation code
 
