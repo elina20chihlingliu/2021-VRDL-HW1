@@ -42,7 +42,7 @@ In the models file, there are five models parameters that I pretrained and saved
 If you want to evaluate test data without training model again, run 310706002_eval_loadmodels.py (ex: python 310706002_eval_loadmodels.py) and you can get answer.txt.\
 It may take 1~2 hours to run 310706002_eval_loadmodels.py.\
 The following is what models file looks like:\
-[models]\
+\[models]\
 ---[my_model0]\
 ---[my_model1]\
 ---[my_model2]\
