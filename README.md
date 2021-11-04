@@ -2,7 +2,7 @@
 
 ## ✓ ML Code Completeness Checklist
 
-The ML Code Completeness Checklist consists of six items:
+The ML Code Completeness Checklist consists of seven items:
 
 1. **Requirements**
 2. **Files** 
