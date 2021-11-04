@@ -20,14 +20,14 @@ The ML Code Completeness Checklist consists of five items:
 
 Please put the following files in the same dir
 
-[training_images]\n
-[testing_images]'\n'
-[models]
-classes.txt
-testing_img_order.txt
-training_labels.txt
-310706002_main.py
-310706002_eval_loadmodels.py
+1. [training_images]
+2. [testing_images]
+3. [models]
+4. classes.txt
+5. testing_img_order.txt
+6. training_labels.txt
+7. 310706002_main.py
+8. 310706002_eval_loadmodels.py
 
 #### 3. Training code + Evaluation code
 
@@ -37,12 +37,12 @@ If you want to
     
 #### 4. Evaluation code + Load the models 
 
-[models]
-    [my_model0]
-    [my_model1]
-    [my_model2]
-    [my_model3]
-    [my_model4]
+[models]\
+---[my_model0]
+---[my_model1]
+---[my_model2]
+---[my_model3]
+---[my_model4]
     
 310706002_eval_loadmodels.py only has testing phase which has to Lo
 
