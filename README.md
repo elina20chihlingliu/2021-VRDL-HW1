@@ -5,18 +5,18 @@
 The ML Code Completeness Checklist consists of five items:
 
 1. **Requirements**
-2. **Files (images,txt and .py)** 
+2. **Files** 
 3. **Training code + Evaluation code** 
 4. **Evaluation code + Load the models**
-5. **Pre-trained models load links**
-6. **README file including table of results accompanied by precise commands to run/produce those results**
+5. **ResNet152V2 and Xception models load links**
+6. **code_explanation**
 
 
 #### 1. Requirements
 
 'requirements.txt` contains all python 
 
-#### 2. Files (images,txt and .py)
+#### 2. Files 
 
 Please put the following files in the same directory.
 1. [training_images]
