@@ -30,16 +30,16 @@ Please put the following files in the same directory.
 
 #### 3. Training code + Evaluation code
 
-310706002_main.py is full code containing data pre-process, training phase, testing phase and generate answer.txt.\
+**310706002_main.py** is full code containing data pre-process, training phase, testing phase and generate answer.txt.\
 If you want to retrain models, just run 310706002_main.py (ex: python 310706002_main.py) and you can get answer.txt.\
 It may take 1~2 hours to run 310706002_main.py.
     
 #### 4. Evaluation code + Load the models 
 
-310706002_eval_loadmodels.py only has testing phase to produce answer.txt. It has to load pretrained models in models file.\
+**310706002_eval_loadmodels.py** only has testing phase to produce answer.txt. It has to load pretrained models in models file.\
 In the models file, there are five models parameters that I pretrained and saved which I used to achieve baseline.\
 If you want to evaluate test data without training model again, run 310706002_eval_loadmodels.py (ex: python 310706002_eval_loadmodels.py) and you can get answer.txt.\
-It may take 1~2 hours to run 310706002_main.py.\
+It may take 1~2 hours to run 310706002_main.py.\\
 [models]\
 ---[my_model0]\
 ---[my_model1]\
