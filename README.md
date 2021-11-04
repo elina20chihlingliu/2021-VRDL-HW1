@@ -43,12 +43,12 @@ To train the model(s) in the paper, run this command:
 python 310706002_main.py
 ```
 >📋  **310706002_main.py** is full code containing data pre-process, training phase, testing phase and generate answer.txt.\
->If you want to retrain models, just run 310706002_main.py (ex: python 310706002_main.py) and you can get answer.txt.\
+>If you want to retrain models, just run 310706002_main.py and you can get answer.txt.\
 It may take 1.5~2.5 hours to run 310706002_main.py.
     
 ## Evaluation code + Load the models 
 
-To evaluate and produce answer.txt without training model again, run:
+To evaluate and produce answer.txt without training model again, run this command:
 
 ```eval
 python 310706002_eval_loadmodels.py
@@ -56,20 +56,17 @@ python 310706002_eval_loadmodels.py
 
 >📋  **310706002_eval_loadmodels.py** only has testing phase to produce answer.txt. It has to load pretrained models in models file.\
 In the models file, there are five models parameters that I pretrained and saved which I used to achieve the baseline.\
-If you want to evaluate test data without training model again, run 310706002_eval_loadmodels.py (ex: python 310706002_eval_loadmodels.py) and you can get answer.txt.\
+If you want to evaluate test data without training model again, run 310706002_eval_loadmodels.py and you can get answer.txt.\
 It may take 1~2 hours to run 310706002_eval_loadmodels.py.\
 
-The following is what models file looks like:\
+The following is what models file looks like:
 \[models]\
 ---[my_model0]\
 ---[my_model1]\
 ---[my_model2]\
 ---[my_model3]\
 ---[my_model4]
-    
-```eval
-python eval.py --model-file mymodel.pth --benchmark imagenet
-```
+ 
     
 ## ResNet152V2 and Xception models weight download links
 
@@ -77,7 +74,7 @@ python eval.py --model-file mymodel.pth --benchmark imagenet
 
 ```pretrained_models
 Downloading data from https://storage.googleapis.com/tensorflow/keras-applications/resnet/resnet152v2_weights_tf_dim_ordering_tf_kernels_notop.h5
-\Downloading data from https://storage.googleapis.com/tensorflow/keras-applications/xception/xception_weights_tf_dim_ordering_tf_kernels_notop.h5
+Downloading data from https://storage.googleapis.com/tensorflow/keras-applications/xception/xception_weights_tf_dim_ordering_tf_kernels_notop.h5
 ```
 ## code_explanation
 
