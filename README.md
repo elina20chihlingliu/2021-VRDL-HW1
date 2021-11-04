@@ -37,8 +37,7 @@ Please put the following files in the same directory.
 
 ## Training code + Evaluation code
 
-**310706002_main.py** is full code containing data pre-process, training phase, testing phase and generate answer.txt.\
-If you want to retrain models, just run 310706002_main.py (ex: python 310706002_main.py) and you can get answer.txt.\
+>📋  **310706002_main.py** is full code containing data pre-process, training phase, testing phase and generate answer.txt.If you want to retrain models, just run 310706002_main.py (ex: python 310706002_main.py) and you can get answer.txt.\
 It may take 1.5~2.5 hours to run 310706002_main.py.
     
 ```train
