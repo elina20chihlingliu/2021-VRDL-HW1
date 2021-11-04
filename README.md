@@ -8,7 +8,7 @@ The ML Code Completeness Checklist consists of seven items:
 2. **Files** 
 3. **Training code + Evaluation code** 
 4. **Evaluation code + Load the models**
-5. **ResNet152V2 and Xception load links**
+5. **ResNet152V2 and Xception weight download links**
 6. **Code_explanation**
 7. **Result**
 
