@@ -55,10 +55,10 @@ The following is what models file looks like:\
 
 [code_explanation]\
 ---feature_extraction_used_pretained_models.py\
----feature_nowwin.py\
+---predict.py\
 ---read_image.py\
 
 code_explanation file includes each segments of the code in 310706002_main.py. 
 In order to explain the code more detail, I separated the code into three segments and each of them were saved as python file.
 Those python files cannot be executed, because they are only for reading the code in detail including some programming notes.
-If 
+If you know more about the code, you can check code_explanation file.
