@@ -39,8 +39,8 @@ It may take 1~2 hours to run 310706002_main.py.
 **310706002_eval_loadmodels.py** only has testing phase to produce answer.txt. It has to load pretrained models in models file.\
 In the models file, there are five models parameters that I pretrained and saved which I used to achieve baseline.\
 If you want to evaluate test data without training model again, run 310706002_eval_loadmodels.py (ex: python 310706002_eval_loadmodels.py) and you can get answer.txt.\
-It may take 1~2 hours to run 310706002_main.py.\\
-[models]\
+It may take 1~2 hours to run 310706002_main.py.\
+\[models]\
 ---[my_model0]\
 ---[my_model1]\
 ---[my_model2]\
