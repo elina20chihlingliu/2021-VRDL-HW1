@@ -9,8 +9,8 @@ The ML Code Completeness Checklist consists of six items:
 3. **Training code + Evaluation code** 
 4. **Evaluation code + Load the models**
 5. **ResNet152V2 and Xception load links**
-6. **code_explanation**
-
+6. **Code_explanation**
+7. **Result**
 
 ## Requirements
 
@@ -77,7 +77,7 @@ The following is what models directory looks like:\
 Downloading data from https://storage.googleapis.com/tensorflow/keras-applications/resnet/resnet152v2_weights_tf_dim_ordering_tf_kernels_notop.h5
 Downloading data from https://storage.googleapis.com/tensorflow/keras-applications/xception/xception_weights_tf_dim_ordering_tf_kernels_notop.h5
 ```
-## code_explanation
+## Code_explanation
 
 [code_explanation]\
 ---feature_extraction_used_pretained_models.py\
@@ -89,3 +89,12 @@ Downloading data from https://storage.googleapis.com/tensorflow/keras-applicatio
 In order to explain the code more detail, I separated the code into four segments and each of them were saved as python file.
 Those python files cannot be executed, because they are only for reading the code in detail including some programming notes.
 If you wanna know more about the code, you can check code_explanation file.
+
+## Result
+
+Our model achieves the following performance on CodaLab:
+| Model name         | Top 1 Accuracy  |
+| ------------------ |---------------- |
+| Model              |     67.524%     |
+
+
