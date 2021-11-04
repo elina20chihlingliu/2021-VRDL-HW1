@@ -57,9 +57,9 @@ python 310706002_eval_loadmodels.py
 >📋  **310706002_eval_loadmodels.py** only has testing phase to produce answer.txt. It has to load pretrained models in models file.\
 In the models file, there are five models parameters that I pretrained and saved which I used to achieve the baseline.\
 If you want to evaluate test data without training model again, run 310706002_eval_loadmodels.py and you can get answer.txt.\
-It may take 1~2 hours to run 310706002_eval_loadmodels.py.\
+It may take 1~2 hours to run 310706002_eval_loadmodels.py.
 
-The following is what models file looks like:
+The following is what models file looks like:\
 \[models]\
 ---[my_model0]\
 ---[my_model1]\
@@ -82,7 +82,7 @@ Downloading data from https://storage.googleapis.com/tensorflow/keras-applicatio
 ---feature_extraction_used_pretained_models.py\
 ---predict.py\
 ---read_image.py\
----training_phase.py\
+---training_phase.py
 
 >📋  code_explanation file includes each segments of the code in 310706002_main.py. 
 In order to explain the code more detail, I separated the code into four segments and each of them were saved as python file.
