@@ -14,17 +14,17 @@ The ML Code Completeness Checklist consists of five items:
 
 ## Requirements
 
->📋  'requirements.txt' contains all python packages we need in the project.
-
 To install requirements:
 
 ```setup
 pip install -r requirements.txt
 ```
 
+>📋  requirements.txt contains all python packages we need in the project.
+
 ## Files 
 
-Please put the following files in the same directory.
+>📋  Please put the following files in the same directory.
 1. [training_images]
 2. [testing_images]
 3. [models]
@@ -37,14 +37,22 @@ Please put the following files in the same directory.
 
 ## Training code + Evaluation code
 
->📋  **310706002_main.py** is full code containing data pre-process, training phase, testing phase and generate answer.txt.If you want to retrain models, just run 310706002_main.py (ex: python 310706002_main.py) and you can get answer.txt.\
-It may take 1.5~2.5 hours to run 310706002_main.py.
-    
+To train the model(s) in the paper, run this command:
+
 ```train
 python 310706002_main.py
 ```
-
+>📋  **310706002_main.py** is full code containing data pre-process, training phase, testing phase and generate answer.txt.\
+>If you want to retrain models, just run 310706002_main.py (ex: python 310706002_main.py) and you can get answer.txt.\
+It may take 1.5~2.5 hours to run 310706002_main.py.
+    
 ## Evaluation code + Load the models 
+
+To evaluate and produce answer.txt without training model again, run:
+
+```eval
+python 310706002_eval_loadmodels.py
+```
 
 **310706002_eval_loadmodels.py** only has testing phase to produce answer.txt. It has to load pretrained models in models file.\
 In the models file, there are five models parameters that I pretrained and saved which I used to achieve the baseline.\
