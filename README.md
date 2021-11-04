@@ -37,6 +37,7 @@ If you want to
     
 #### 4. Evaluation code + Load the models 
 
+In the models file, there are five models parameters that I pretrained and saved which I used to achieve baseline.
 [models]\
 ---[my_model0]\
 ---[my_model1]\
