@@ -12,7 +12,7 @@ The ML Code Completeness Checklist consists of five items:
 6. **code_explanation**
 
 
-#### 1. Requirements
+## Requirements
 
 'requirements.txt' contains all python packages we need in the project.
 
@@ -22,7 +22,7 @@ To install requirements:
 pip install -r requirements.txt
 ```
 
-#### 2. Files 
+## Files 
 
 Please put the following files in the same directory.
 1. [training_images]
