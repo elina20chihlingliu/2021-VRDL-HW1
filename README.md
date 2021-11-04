@@ -41,6 +41,7 @@ It may take 1.5~2.5 hours to run 310706002_main.py.
 In the models file, there are five models parameters that I pretrained and saved which I used to achieve the baseline.\
 If you want to evaluate test data without training model again, run 310706002_eval_loadmodels.py (ex: python 310706002_eval_loadmodels.py) and you can get answer.txt.\
 It may take 1~2 hours to run 310706002_eval_loadmodels.py.\
+The following is what models file looks like:
 \[models]\
 ---[my_model0]\
 ---[my_model1]\
@@ -51,7 +52,11 @@ It may take 1~2 hours to run 310706002_eval_loadmodels.py.\
 #### 5. ResNet152V2 and Xception models load links
 
 #### 6. code_explanation
+
 [code_explanation]\
 ---feature_extraction_used_pretained_models.py\
 ---feature_nowwin.py\
 ---read_image.py\
+code_explanation file includes each segments of the code in 310706002_main.py. 
+In order to explain the code more detail, I separated the code into three segments and each of them were saved as python file.
+Those python files cannot be executed, because they are only for reading the code in detail including some programming notes.
