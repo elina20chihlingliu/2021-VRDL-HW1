@@ -8,7 +8,7 @@ The ML Code Completeness Checklist consists of five items:
 2. **Files** 
 3. **Training code + Evaluation code** 
 4. **Evaluation code + Load the models**
-5. **ResNet152V2 and Xception models load links**
+5. **ResNet152V2 and Xception load links**
 6. **code_explanation**
 
 
@@ -51,6 +51,7 @@ The following is what models file looks like:\
     
 #### 5. ResNet152V2 and Xception models load links
 
+Downloading data from https://storage.googleapis.com/tensorflow/keras-applications/resnet/resnet152v2_weights_tf_dim_ordering_tf_kernels_notop.h5
 #### 6. code_explanation
 
 [code_explanation]\
