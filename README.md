@@ -35,7 +35,7 @@ Please put the following files in the same directory.
 8. 310706002_main.py
 9. 310706002_eval_loadmodels.py
 
-#### 3. Training code + Evaluation code
+## Training code + Evaluation code
 
 **310706002_main.py** is full code containing data pre-process, training phase, testing phase and generate answer.txt.\
 If you want to retrain models, just run 310706002_main.py (ex: python 310706002_main.py) and you can get answer.txt.\
@@ -45,7 +45,7 @@ It may take 1.5~2.5 hours to run 310706002_main.py.
 python 310706002_main.py
 ```
 
-#### 4. Evaluation code + Load the models 
+## Evaluation code + Load the models 
 
 **310706002_eval_loadmodels.py** only has testing phase to produce answer.txt. It has to load pretrained models in models file.\
 In the models file, there are five models parameters that I pretrained and saved which I used to achieve the baseline.\
@@ -63,10 +63,10 @@ The following is what models file looks like:\
 python eval.py --model-file mymodel.pth --benchmark imagenet
 ```
     
-#### 5. ResNet152V2 and Xception models load links
+## ResNet152V2 and Xception models load links
 
 Downloading data from https://storage.googleapis.com/tensorflow/keras-applications/resnet/resnet152v2_weights_tf_dim_ordering_tf_kernels_notop.h5
-#### 6. code_explanation
+## code_explanation
 
 [code_explanation]\
 ---feature_extraction_used_pretained_models.py\
