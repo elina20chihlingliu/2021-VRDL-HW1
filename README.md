@@ -20,8 +20,8 @@ The ML Code Completeness Checklist consists of five items:
 
 Please put the following files in the same dir
 
-[training_images]
-[testing_images]
+[training_images]\n
+[testing_images]'\n'
 [models]
 classes.txt
 testing_img_order.txt
