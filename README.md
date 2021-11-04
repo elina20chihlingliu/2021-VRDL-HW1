@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ## Files 
 
 >📋  Please put the following files in the same directory.\
->    **These four files are on my Github, please download.**
+>    **The four files are on my Github, please download them.**
 1. [training_images]
 2. [testing_images]
 3. **[models]**
